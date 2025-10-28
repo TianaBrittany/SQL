@@ -1,4 +1,4 @@
 # SQL
 SQL Portfolio
 
-Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out via email if you have any questions. Tianadurant@outlook.com
+Welcome to my GitHub! I'm Tiana - a Data Analyst and Operations Specialist transitioning into tech with a passion for turning messy data into meaningful insights. I build real world project using SQL and visualization tools that solve business problem and highlight performance treands. 
