@@ -25,21 +25,21 @@ VALUES
     (14, 'Cutlery Set', 'Kitchen Supplies', 34.50, 40, 4.4),
     (15, 'Cozy Throw Blanket', 'Furnishings', 24.99, 100, 4.2);
 
-/* 1. Order items by price */
+/*1. Order items by price.*/
 select item_name, price
 from superstore
 order by price desc;
 
-/* 2. Statistic about prices */
+/*2. Statistic about prices.*/
 select avg(price) as average_price
 from superstore;
 
-/* 3. Statistic about the price for items in the category of "Kitchen Supplies" */
+/*3. Statistic about the price for items in the category of "Kitchen Supplies".*/
 select avg(price) as kitchen_item_count
 from superstore
 where category = 'Kitchen Supplies';
 
-/* 4. Which category has the hghest average ratng? */
+/*4. Which category has the hghest average ratng?*/
 select category, avg(average_rating) as avg_rating
 from superstore
 group by category
